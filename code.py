@@ -1,4 +1,4 @@
 import time
 
-print("Hello Jenkins.")
+print("Hello Jenkins from Github Webhook.")
 time.sleep(4)
