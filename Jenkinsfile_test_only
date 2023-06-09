@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Test') {
+            steps {
+                sh 'python3 TC-01: Google Search.py'
+                sh 'python3 TC-02: Check Google Logo.py'
+                sh 'python3 TC-03: Validate page title.py'
+            }
+        }
+    }
+}
